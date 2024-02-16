@@ -1,0 +1,7 @@
+-- Comments in SQL Start with dash-dash --
+
+-- Add a product to the table with the name of “chair”, price of 44.00, and 
+-- can_be_returned of false.
+
+INSERT INTO product (name, price, can_be_returned)
+    VALUES ('chair', 44.00, 'f');
